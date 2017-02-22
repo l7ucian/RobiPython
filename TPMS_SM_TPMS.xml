@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<StateMachineSpecification>
+  <StateMachine Name="TPMS_SM_TPMS" DefaultSubstate="TPMS_ST_TPMS" SaveAtSleep="true" ExecuteAllActions="true">
+    <State Name="TPMS_ST_TPMS" HistoryRelevant="false">
+      <VisualElements>
+        <Name>TPMS_WC_TPMS</Name>
+      </VisualElements>
+    </State>
+  </StateMachine>
+</StateMachineSpecification>
