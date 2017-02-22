@@ -1,0 +1,1848 @@
+ID,SUBPRIO,PRIORITY,WARN_TYPE,TIME_OUT,LM,ICON,COLOR,CHIME_TYPE,TEXT
+W050,2,2,SC*,n/a,No,Z.902,Red,Hard,Stop Safely Now
+W050a,2,2,SC*,n/a,No,M.02,Red,Hard,Stop Safely Now
+W050b,2,2,SC*,n/a,No,M.210,Red,Hard,Stop Safely Now
+W070,3,2,SC*,n/a,No,n/a,Amber,No,"Occupant Sensor
+BLOCKED
+Remove Objects
+Near Passenger Seat"
+W090,5,2,SC*,n/a,No,J.14,Amber,Service Advacetrac Chime,"Service
+ AdvanceTrac"
+W075,6,2,SC*,n/a,No,n/a,Amber,n/a,"Neutral Tow Enabled
+Leave Transmission in Neutral"
+W75a,6,2,NR,n/a,No,n/a,Amber,No,"Neutral Tow Enabled
+Leave Transmission in Neutral"
+W75b,6,2,TA,24,Yes,n/a,Amber,No,"Neutral Tow Enabled
+Leave Transmission in Neutral"
+W076,6.1,2,TA,4,Yes,n/a,Amber,No,"Neutral Tow
+Disabled"
+W606,7,2,SC*,n/a,No,n/a,Amber,PRNDL_NOT_IN_PARK_CHIME,"Transmission 
+Not in Park"
+W605a,7,2,NR,n/a,Yes,n/a,Neutral,info,"Transmission 
+Not in Park"
+W605,7,2,NR,n/a,Yes,n/a,Amber,PRNDL_NOT_IN_PARK_CHIME,"Transmission 
+Not in Park"
+W098,9,2,SC*,n/a,No,n/a,Amber,HEV Off Chime,Vehicle is ON
+W099,9.5,2,SC*,n/a,No,n/a,Amber,HEV Off Chime,Vehicle is ON
+W100,10,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,"Driver Door 
+Ajar"
+W3256,11,2,TT/RTT,n/a,No,tbd.51,Amber,No,n/a
+W2114,12,2,SC*,n/a,No,n/a,Neutral,info,"To stop motor
+hold button"
+W101,15,2,SC*,n/a,No,n/a,Amber,No,"Transport Mode
+Contact Dealer"
+W102,16,2,SC*,n/a,No,n/a,Amber,No,"Factory Mode
+Contact Dealer"
+W3100,18,2,SC*,n/a,No,n/a,Amber,No,"Shift to Neutral
+to Start
+Vehicle"
+W3532,19,2,SC*,n/a,No,n/a,Amber,No,"Shift to Park
+to Start
+Vehicle"
+W105,20,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,"Passenger Door 
+Ajar"
+W106,21,2,SC*,n/a,No,L.01,Red,Door Ajar Chime,"Hood
+Ajar"
+W110,30,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,"Rear Left Door
+Ajar"
+W115,40,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,"Rear Right Door
+Ajar"
+W116,40,2,SC*,n/a,No,k.08,Red,Headlamp On Reminder Chime,"Emergency  Rear
+Door Ajar"
+W117,41,2,SC*,n/a,No,n/a,Red,Door Ajar Chime,"Tailgate
+Ajar"
+W118,50,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,Door Ajar
+W119,60,2,SC*,n/a,No,L.02,Red,Door Ajar Chime,Trunk Ajar
+W2090,61,2,SC*,n/a,No,k.08,Red,Door Ajar Chime,"Rear Load
+Compartment
+Door Ajar"
+W1820,71,2,SC*,n/a,Yes,n/a,Neutral,No,"Fuel Door
+Opening"
+W1821,72,2,SC*,n/a,Yes,n/a,Neutral,No,"Fuel Door
+Open"
+W1822,73,2,SC*,n/a,Yes,n/a,Neutral,No,"Close
+Fuel Door"
+W1823,74,2,SC*,n/a,Yes,n/a,Amber,Info,"Refuel Error
+See Manual"
+W125,80,2,SC*,n/a,No,L.17,Red,Door Ajar Chime,"Liftgate Or 
+Liftglass
+ Ajar"
+W127,80,2,SC*,n/a,No,L.17,Red,Door Ajar Chime,Liftgate Ajar
+W140,81,2,SC*,n/a,No,n/a,Red,Hard,"Steering 
+Fault
+Service Now
+"
+W141,81,2,SC*,n/a,No,n/a,Red,Hard,"Steering 
+Loss
+Stop Safely"
+W142,81,2,SC*,n/a,No,n/a,Amber,soft,"Steering 
+Assist Fault
+Service Required"
+W502,82,2,SC*,n/a,No,n/a,Amber,No,"Trailer
+ Sway
+Reduce Speed"
+W143,83,2,SC*,n/a,No,n/a,Amber,Info,"Steering Lock
+Malfunction
+Service Now"
+W144,84,2,SC*,n/a,No,n/a,Amber,Info,"Steering Column Lock
+Remove and re-insert
+key while turning
+wheel to unlock"
+W145,84,2,SC*,n/a,No,n/a,Amber,Info,"Steering Col. Lock
+Turn Wheel while 
+Starting vehicle"
+W650,85,2,SC*,n/a,Yes,n/a,Amber,Perimeter alarm warning chime,"Vehicle Alarm
+To Stop Alarm,
+Start Vehicle."
+W700,90,2,SC*,n/a,No,F.04,Red,Hard,"Low Engine Oil
+Pressure"
+W155,100,2,SC*,n/a,No,M.01,Red,Hard,"Check
+Charging System"
+W3275,101,2,SC*,n/a,No,n/a,Red,soft,"Charging System
+Service Soon"
+W3276,102,2,SC*,n/a,No,M.01,Red,Hard,"Charging System
+Service Now"
+W3277,103,2,SC*,n/a,No,n/a,Red,Soft,"Battery
+State of Charge
+Low"
+W710,110,2,SC*,n/a,No,F.03,Red,Hard,"Engine Coolant
+Over Temperature"
+W710a,110,2,SC*,n/a,No,F.03,Red,Hard,"Motor Coolant
+Over Temperature"
+W710b,110,2,NR,n/a,No,F.03,Red,Hard,"Engine Coolant
+Over Temperature"
+W710c,110,2,SC*,n/a,No,tbd.96,Red,Hard,"Motor 
+Over Temperature"
+W711,111,2,TT/RTT,n/a,No,I.08,Amber,,
+W712,112,2,SC*,n/a,No,n/a,Amber,info,"Power Reduced
+to Lower
+Engine Temp"
+W161,114,2,TT/RTT,n/a,No,H.905,n/a,No,
+W3405,114,2,RTT,n/a,No,tbd.92,n/a,No,
+W162,116,2,TT/RTT,n/a,No,tbd.22,n/a,No,
+W200,120,2,SC*,n/a,No,n/a,Red,Hard,"Check Brake
+System"
+W205,130,2,SC*,n/a,No,n/a,Red,Hard,"Brake Fluid 
+Level Low"
+W215,140,2,SC*,n/a,No,n/a,Red,Park Brake Warn Chime,Park Brake Engaged
+W911,144,2,NR,n/a,No,tbd.35,Neutral,No,"Collision Warning
+On
+Off"
+W910,145,2,NR,n/a,No,tbd.35,Neutral,No,"Collision Warn Chime
+On
+Off"
+W306,153,2,SC*,n/a,No,n/a,Amber,No,"Active Park
+Fault"
+W345,154,2,NR,n/a,Yes,n/a,Neutral,No,"Alarm
+All Sensors
+Perimeter Sensing"
+W346,155,2,NR,n/a,No,tbd.2,Neutral,No,"Rear Park Aid
+On
+Off"
+W347,155,2,NR,n/a,No,tbd.3,Neutral,No,"Front Park Aid
+On
+Off"
+W157,157,2,SC,n/a,No,tbd.108,Amber,Info,"Rear Park Aid
+Not Available 
+Sensor Blocked 
+See Manual
+"
+W158,158,2,SC,n/a,No,tbd.109,Amber,Info,"Front Park Aid
+Not Available
+ Sensor Blocked
+ See Manual"
+W159,159,2,SC,n/a,No,tbd.110,Amber,Info,"Park Aid
+Not Available
+Sensor Blocked
+See Manual"
+W584,160,2,SC*,n/a,No,J.11,Amber,info,"Park Aid
+Malfunction"
+W350,160,2,SC*,n/a,No,J.11,Amber,No,"Check
+Park Aid"
+W351,160,2,SC*,n/a,No,J.11,Amber,No,"Check Rear
+Park Aid"
+W585,160,2,SC*,n/a,No,J.11,Neutral,No,"Park Aid
+Malfunction"
+W352,160,2,SC*,n/a,No,J.11,Amber,No,"Check Front
+Park Aid"
+W353,161,2,NR,n/a,No,tbd.2,Neutral,No,"Camera Zoom
+On
+Off"
+W360,170,2,SC*,n/a,No,n/a,Amber,Soft,"Tire Pressure
+Sensor Fault"
+W380,180,2,SC*,n/a,No,n/a,Amber,Soft,Tire Pressure Low
+W381,180,2,SC*,n/a,No,tbd.49,Amber,Soft,"Tire Low 
+{Graphic}"
+W382,180,2,SC*,n/a,No,tbd.50,Neutral,Soft,"Tire Pressure
+{Graphic}"
+W1835,181,2,TA*,4,No,n/a,Neutral,No,"EV Now
+Not Available"
+W1832,182,2,SC*,n/a,No,n/a,Neutral,No,"Press OK
+to
+Enable Engine"
+W1834,183,2,TA*,4,No,n/a,Neutral,No,"EV Now
+Battery Powered"
+W1833,184,2,TA*,4,No,n/a,Neutral,No,"EV Later
+XX% Plug-in energy
+reserved"
+W1831,185,2,TA*,4,No,n/a,Neutral,No,"Auto EV
+Normal Operation"
+W1842,186,2,SC*,n/a,No,n/a,Amber,No,"Engine
+Enabled
+Due to 
+Defrost Setting"
+W1841,187,2,SC*,n/a,No,n/a,Amber,No,"Engine 
+Enabled
+for System
+Performance"
+W1841,187,2,SC*,n/a,No,J.17,Amber,n/a,"Engine 
+Enabled
+for System
+Performance"
+W1843,188,2,TA*,4,No,n/a,Neutral,Yes,"Press EV Button
+for Full Defrost"
+W405,190,2,SC*,n/a,No,n/a,Amber,Soft,"Train Left
+Front Tire"
+W410,200,2,SC*,n/a,No,n/a,Amber,Soft,"Train Right
+Front Tire"
+W201,201,2,SC*,n/a,No,n/a,Amber,Soft,"Brake Pad
+Wear
+Service Now"
+W3563,80,1,NR,n/a,No,tbd.112,Red,Yes,"Keep Hands
+on
+Steering Wheel"
+W3564,204,2,SC*,n/a,No,tbd.113,Amber,No,"Traffic Jam
+Assist
+Not Available"
+W3565,205,2,SC*,n/a,No,tbd.113,Neutral,No,"For Traffic Jam Assist to work 
+Turn On Adaptive Cruise"
+W415,210,2,SC*,n/a,No,n/a,Amber,Soft,"Train Right
+Rear Tire"
+W417,215,2,SC*,n/a,No,n/a,Amber,Soft,"Train Outer
+Right Rear
+Tire"
+W418,220,2,SC*,n/a,No,n/a,Amber,Soft,"Train Inner
+Right Rear
+Tire"
+W420,230,2,SC*,n/a,No,n/a,Amber,Soft,"Train Left
+Rear Tire"
+W422,235,2,SC*,n/a,No,n/a,Amber,Soft,"Train Outer
+Left Rear
+Tire"
+W423,240,2,SC*,n/a,No,n/a,Amber,Soft,"Train Inner
+Left Rear
+Tire"
+W430,260,2,SC*,n/a,No,n/a,Amber,Soft,"Training
+Complete"
+W435,270,2,SC*,n/a,No,n/a,Amber,Soft,"Tires Not
+Trained - Repeat"
+W440,280,2,SC*,n/a,No,n/a,Amber,Soft,"Tire Pressure
+Monitor Fault"
+W441,281,2,SC*,n/a,No,tbd.4,Amber,Cross Traffic Alert Chime,"Vehicle Coming
+From Left"
+W442,282,2,SC*,n/a,No,tbd.5,Amber,Cross Traffic Alert Chime,"Vehicle Coming
+From Right"
+W443,283,2,SC*,n/a,No,tbd.15,Amber,info,"Blindspot
+System Fault"
+W447,283,2,TT/RTT,n/a,No,tbd.15,Amber,No,
+W444,284,2,SC*,n/a,No,tbd.4,Amber,info,"Cross Traffic
+System Fault"
+W445,285,2,SC*,n/a,No,n/a,Amber,info,"Blindspot
+Not Available
+Sensor Blocked
+See Manual"
+W446,286,2,SC*,n/a,No,n/a,Amber,info,"Cross Traffic
+Not Available
+Sensor Blocked
+See Manual"
+W2200,287,2,SC*,n/a,No,tbd.111,Red,No,"Cross Traffic Alert
+Applying
+Brakes"
+W2201,288,2,SC*,n/a,No,tbd.111,Amber,Yes,"Cross Traffic Alert
+"
+W1817,291,2,SC,n/a,No,tbd.16,Red,Hard,"Depleted Battery
+Stop safely now"
+W1817a,291,2,SC*,n/a,No,tbd.16,Red,Hard,Depleted Battery
+W1816,292,2,SC,n/a,No,tbd.16,Amber,info,"Low Battery
+Reduce Climate use
+for more range"
+W1815,293,2,SC,n/a,No,tbd.16,Amber,info,Low Battery
+W295,301,2,RTT,n/a,No,tbd.7,Neutral,No,
+W296,302,2,SC*,n/a,No,tbd.8,Neutral,No,Seatbelts 
+W297,303,2,SC*,n/a,No,n/a,Amber,Rear seat beltminder,"Rear Belt Monitor
+Malfunction
+Service Required"
+W298,304,2,SC*,n/a,No,tbd.8,Amber,Rear seat beltminder,Seatbelts Warning
+W1804,306,2,SC*,n/a,No,J.17,Red,Hard,"Severely Limited
+Performance
+Due to cold battery"
+W1806,307,2,SC*,n/a,No,J.17,Red,Hard,"Severely Limited
+Performance
+Due to hot battery"
+W1803,308,2,SC*,n/a,No,J.17,Amber,info,"Limited Performance
+Due to cold battery"
+W224,309,2,SC*,n/a,No,"G.01
+Amber",Amber,info,"Fuel Level Low
+XZ Miles to Empty"
+W225,309,2,SC*,n/a,No,"G.01
+Amber",Amber,info,"Fuel Level Low
+XXZ km to Empty"
+W226,309,2,SC*,n/a,No,"G.01
+Amber",Amber,info,Fuel Level Low
+W226a,309,2,SC*,n/a,No,"G.01
+Amber",Amber,info,Fuel Level Low
+W1805,311,2,SC*,n/a,No,J.17,Amber,info,"Limited Performance
+Due to hot battery"
+W1018,313,2,SC*,n/a,No,n/a,Amber,No,"AWD
+Temporarily
+Disabled"
+W1019,313,2,SC*,n/a,No,n/a,Amber,No,"4x4
+Temporarily
+Disabled"
+W1020,313,2,SC*,n/a,No,n/a,Amber,No,"4WD
+Temporarily
+Disabled"
+W1021,314,2,SC*,n/a,No,n/a,Amber,No,"AWD
+Restored"
+W1022,314,2,SC*,n/a,No,n/a,Amber,No,"4x4
+Restored"
+W1023,314,2,SC*,n/a,No,n/a,Amber,No,"4WD
+Restored"
+W725,315,2,SC*,n/a,No,X.936,Amber,No,"Check
+4x4"
+W1024,316,2,SC*,n/a,No,X.936,Amber,No,"4WD
+Malfunction
+Service Required"
+W726,316,2,SC*,n/a,No,X.936,Amber,No,"AWD
+Malfunction
+Service Required"
+W727,317,2,SC*,n/a,No,n/a,Amber,No,"AWD
+OFF"
+W728,318,2,SC*,n/a,No,n/a,Amber,No,4x4 OFF
+W1025,318,2,SC*,n/a,No,n/a,Amber,No,4WD OFF
+W745,319,2,SC*,n/a,No,n/a,Amber,No,Check Locking Differential
+W730,320,2,SC*,n/a,No,X.936,Amber,No,See Manual
+W730a,320,2,SC*,n/a,No,M.210,red,No,See Manual
+W1010,321,2,SC*,n/a,No,n/a,Amber,Soft,"Front Camera
+Malfunction
+Service Required"
+W1011,322,2,SC*,n/a,No,n/a,Amber,Info,"Front Camera
+Temporarily
+Not Available"
+W1012,323,2,SC*,n/a,No,n/a,Amber,Info,"Front Camera
+Low Visibility
+Clean Screen"
+W1013,324,2,SC*,n/a,No,n/a,Amber,Soft,"Lane Keeping Sys.
+Malfunction
+Service Required"
+W1014a,325,2,SC*,n/a,No,n/a,Amber,info,"Keep Hands
+on
+Steering Wheel"
+W1014,325,2,SC*,n/a,No,n/a,Amber,No,"Keep Hands
+on
+Steering Wheel"
+W1016,327,2,SC*,n/a,No,tbd.17,Red,Hard,"Driver Alert
+Warning
+Rest Now"
+W1017,328,2,SC*,n/a,No,tbd.17,Amber,Soft,"Driver Alert
+Warning
+Rest Suggested"
+W450,330,2,TA,10,No,C.05,Amber,No,"Washer Fluid 
+Level Low"
+W663,334,2,SC*,n/a,No,n/a,Amber,Soft,"Reduced Engine
+Power"
+W470,340,2,SC*,n/a,No,F.915,Amber,No,"Oil Change
+Required"
+W475,350,2,SC*,n/a,No,F.915,Amber,No,"Change Engine
+Oil Soon"
+W477,360,2,SC*,n/a,No,n/a,Amber,info,"Oil Level
+Low
+Add Oil"
+W505,370,2,SC*,n/a,No,n/a,Amber,info,"Trailer Wiring
+Fault"
+W510,380,2,SC*,n/a,No,n/a,Amber,info,"Trailer Brake Module
+Fault"
+W515,390,2,SC*,n/a,No,n/a,Amber,info,Trailer Disconnected
+W518,392,2,TA,4,No,n/a,Neutral,info,Trailer Connected
+W520,395,2,SC*,n/a,No,n/a,Neutral,info,Trailer Brake Gain: XZ.Z
+W522,397,2,SC*,n/a,No,n/a,Neutral,info,"Trailer Brake Gain: XZ.Z
+No Trailer"
+W524,398,2,SC*,n/a,No,n/a,Neutral,info,"Trailer Brake 
+Gain: XZ.Z
+{GRAPHIC}
+Output"
+W1870,400,2,SC*,n/a,No,n/a,Amber,info,"Trailer Lighting Module
+Fault
+See Manual"
+W1871,401,2,SC*,n/a,No,n/a,Amber,info," Trailer Stop Lamps
+Fault
+Check Lamps"
+W1872,402,2,SC*,n/a,No,n/a,Amber,info,"Trailer Left Turn Lamps
+Fault
+Check Lamps"
+W1873,403,2,SC*,n/a,No,n/a,Amber,info,"Trailer Right Turn Lamps
+Fault
+Check Lamps"
+W1874,404,2,SC*,n/a,No,n/a,Amber,info,"Trailer Park Lamps
+Fault
+Check Lamps"
+W1875,405,2,SC*,n/a,No,n/a,Amber,info,"Trailer Battery
+Not Charging
+See Manual"
+W427,427,2,TA,4,No,n/a,Amber,No,"Hill Start
+Assist Active"
+W428,428,2,TA,4,No,n/a,Amber,No,"Hill Start
+Assist Off"
+W429,429,2,TA,10,No,n/a,Amber,soft,"Hill Start
+Assist 
+Not Available"
+W582,430,2,TA,4,No,n/a,Amber,memory feedback,"Hill Start
+Assist Off"
+W462,462,2,SC*,n/a,No,n/a,Amber,No,Normal Mode
+W463,463,2,SC*,n/a,No,n/a,Amber,No,Crash Mode
+W471,471,2,TA,4,No,n/a,Amber,No,"Service Oil
+Reset Complete"
+W472,472,2,TA,4,No,n/a,Amber,No,"Service Oil
+Reset in Progress"
+W489,489,2,SC*,n/a,No,n/a,Amber,No,"Factory Mode
+Paused"
+W490,490,2,SC*,n/a,No,n/a,Amber,No,"Transport Mode
+Paused"
+W540,500,2,SC*,n/a,No,n/a,Amber,No,"Check Headlamp
+System
+See Manual"
+W541,541,2,TA,4,No,tbd.12,Neutral,No,"Instrument
+Dimming"
+W542,542,2,TA,4,No,tbd.13,Neutral,No,"Instrument
+Dimming"
+W543,543,2,TA,4,No,tbd.13,Neutral,No,"Instrument
+Dimming"
+W589,589,2,TA,4,No,n/a,Neutral,No,Engine Start Pending. Please Wait.
+W590,590,2,TA,4,No,n/a,Amber,No,"Engine Start
+Pending
+Please Wait"
+W591,591,2,TA,4,No,n/a,Amber,No,"Pending Start
+Cancelled"
+W1800,597,2,SC*,n/a,Yes,M.10,Amber,info,"Is Vehicle Plugged In ?
+Yes
+No"
+W1801,598,2,TA,4,Yes,M.10,Amber,info,"Unplug Prior
+to Starting
+Vehicle"
+W1802,599,2,RTT,n/a,No,M.10,Amber,No,
+W600,600,2,TA,4,No,n/a,Amber,No,"To START
+Press Brake"
+W601,601,2,TA,4,No,n/a,Amber,No,"To START
+Press Brake
+and Clutch"
+W602,602,2,NR,n/a,Yes,n/a,Amber,No,"Remote Start
+Active"
+W603,603,2,NR,n/a,Yes,n/a,Amber,No,"To Drive:
+Turn Key
+to On"
+W2100,604,2,NR,n/a,Yes,n/a,Amber,No,"To Drive:
+Press Brake
+and Gear
+Shift Button"
+W604,604,2,NR,,Yes,n/a,Amber,No,"To Drive:
+Press Brake
+and
+Start Button"
+W604a,604,2,TA,10,Yes,n/a,Amber,No,"To Drive:
+Press Brake
+and
+Start Button"
+W613,604,2,NR,n/a,Yes,n/a,Amber,No,"To Drive:
+Press
+Start Button"
+W607,607,2,NR,n/a,Yes,n/a,Neutral,info,"Press Brake
+to Unlock
+Gearshift Lever"
+W608,608,2,NR,n/a,Yes,n/a,Neutral,info,"Gearshift Lever
+Unlocked"
+W609,609,2,TA,4,No,n/a,Amber,No,"To START
+Press Clutch"
+W610,610,2,TA,4,Yes,n/a,Amber,info,No Key Detected
+W611,611,2,TA,4,No,n/a,Amber,No,"Cranking Time
+Exceeded"
+W612,612,2,SC*,n/a,Yes,n/a,Amber,soft,"Vehicle
+Switched Off"
+W615,615,2,SC*,n/a,Yes,n/a,Amber,info,No Key Detected
+W620,620,2,NR,n/a,Yes,n/a,Amber,info,"Restart Now
+or Key is Needed"
+W625,625,2,NR,n/a,Yes,n/a,Amber,info,"Accessory Power
+is Active"
+W626,626,2,SC*,n/a,No,n/a,Amber,No,"Full Accessory
+Power Active"
+W630,630,2,TA,4,Yes,n/a,Amber,info,"Starting System
+Fault"
+W635,635,2,TA,4,Yes,n/a,Amber,info,"Key Programmed
+3 Keys Total"
+W636,636,2,TA,4,Yes,n/a,Amber,No,"Key Program
+Successful"
+W640,640,2,TA,4,Yes,n/a,Amber,info,"Key Programmed
+4 Keys Total"
+W641,641,2,TA,4,Yes,n/a,Amber,No,"Key Program
+Failure"
+W645,645,2,TA,4,Yes,n/a,Amber,No,"Max Number of
+Keys Learned"
+W1497,646,2,NR,n/a,Yes,n/a,Red,dedicated,"Accessory Power
+is Active"
+W1494,647,2,SC*,n/a,Yes,n/a,Amber,soft,"Steering Lock
+Malfunction
+Service Now"
+W1495,648,2,SC*,n/a,No,n/a,Red,Hard,"Steering Lock
+Malfunction
+Stop Safely"
+W648,648,2,TA,4,Yes,n/a,Amber,No,"Not Enough 
+Keys Learned"
+W1498,649,2,SC*,n/a,No,n/a,Red,dedicated,"Key Not
+Inside vehicle"
+W1245,650,2,TA,10,Yes,n/a,Amber,soft,"Key Inside
+vehicle"
+W1496,651,2,TA,10,Yes,n/a,Neutral,No,"No Key
+Detected"
+W1499,652,2,TA,10,Yes,n/a,Neutral,No,"To START
+Press Brake"
+W1500,653,2,SC*,n/a,No,n/a,Amber,info,"Steering Column Lock
+Remove and re-insert
+key while turning
+wheel to unlock"
+W1502,654,2,TA,10,No,n/a,Neutral,No,"To START
+Press Clutch"
+W1630,655,2,TA,10,Yes,TBD.53,Neutral,No,"Place Key in
+Backup Location"
+W1630b,655,2,TA,10,Yes,tbd.20,Neutral,No,"Key Not Detected
+Place Key as Shown"
+W654,656,2,SC*,n/a,No,n/a,Red,hard,"Exhaust Filter
+Over Limit
+Service Now"
+W653,656,2,SC*,n/a,No,n/a,Amber,info,"Exhaust Filter
+At Limit
+Clean Now"
+W656,656,2,SC*,n/a,No,n/a,Amber,info,"Exhaust Filter 
+Overloaded
+Clean Now"
+W657,657,2,SC*,n/a,No,n/a,Amber,No,"Exhaust Filter
+Full
+Clean Soon"
+W658,658,2,SC*,n/a,No,F.923,Amber,info,"Auto Exhaust
+Cleaning OFF"
+W2000,659,2,SC*,n/a,No,n/a,Red,hard,"Exhaust Filter
+at Limit
+Drive to Clean Now"
+W660,660,2,SC*,n/a,No,n/a,Amber,info,"Exhaust Filter
+Overloaded
+Drive to Clean"
+W661,661,2,SC*,n/a,No,n/a,Neutral,No,"
+Exhaust Filter
+Cleaning"
+W662,662,2,TA,4,No,n/a,Neutral,No,"Exhaust Filter
+Drive Complete"
+W665,665,2,SC*,n/a,No,n/a,Amber,info,"Vehicle Shuts Off 
+In XX Seconds"
+W667,667,2,SC*,n/a,No,n/a,Amber,info,"Vehicle Shut Off 
+to Save Energy"
+W668,668,2,SC*,n/a,No,n/a,Amber,info,"Vehicle Shuts Off 
+in XX Seconds
+Press Ok to Override"
+W669,669,2,SC*,n/a,No,n/a,Amber,soft,"Fuel Tank Empty
+Engine will Shut Off
+in XX Seconds"
+W701,701,2,SC*,n/a,No,n/a,Neutral,No,"Fuel Freshness
+Engine may run
+to maintain
+fuel freshness"
+W702,702,2,SC*,n/a,No,n/a,Neutral,No,"Engine On
+Due to Low Use
+Normal Operation"
+W705,705,2,SC*,n/a,No,n/a,Amber,No,"Engine Warming
+Please Wait
+XX sec"
+W714,714,2,SC*,n/a,No,n/a,Neutral,No,"Engine Warming
+Power Reduced"
+W715,715,2,TA*,4,No,n/a,Neutral,No,Ready to Drive
+W718,718,2,SC*,n/a,No,n/a,Amber,info,"Exhaust Filter
+Cleaned"
+W719,719,2,SC*,n/a,No,n/a,Amber,info,"Exhaust Filter Cleaning
+Stopped"
+W771,771,2,SC*,n/a,No,n/a,Amber,No,"Low Battery
+Features Temporarily Turned Off"
+W772,772,2,SC*,n/a,No,n/a,Amber,No,"Turn Power Off
+To Save Battery"
+W820,800,2,SC*,n/a,No,k.15,Amber,Info,"Collision Warning
+Malfunction"
+W823,802,2,SC*,n/a,No,n/a,Amber,Info,"Collision Warning
+Not Available
+Sensor Blocked
+See Manual"
+W821,804,2,SC*,n/a,No,k.15,Amber,Info,"Collision Warning
+Not Available"
+W814,90,1,SC*,n/a,No,n/a,Amber,No,"Adaptive Cruise
+Not Available"
+W816,816,2,SC*,n/a,No,n/a,Amber,No,"Adaptive Cruise
+Malfunction"
+W818,818,2,SC*,n/a,No,n/a,Amber,No,"Adaptive Cruise
+Not Available
+Sensor Blocked
+See Manual"
+W2060,823,2,TT/RTT,n/a,No,J.09,Green,,
+W2061,824,2,TT/RTT,n/a,No,J.08,Green,,
+W2113,825,2,TT/RTT,n/a,No,tbd.41,Green,,
+W729,829,2,SC*,n/a,No,n/a,Amber,,"Shift Delayed
+Pull Forward"
+W731,831,2,SC*,n/a,No,n/a,Amber,,"For 4x4 LOW
+Slow to 3 MPH"
+W741,831,2,SC*,n/a,No,n/a,Amber,,"For 4x4 LOW
+Slow to 5 km/h"
+W732,832,2,SC*,n/a,No,n/a,Amber,,"For 4x4 LOW
+Apply Brake"
+W733,833,2,SC*,n/a,No,n/a,Amber,,"For 4x4 LOW
+Shift to N"
+W734,834,2,SC*,n/a,No,n/a,Amber,,"For 4x4 LOW
+Apply Clutch"
+W735,835,2,SC*,n/a,No,n/a,Amber,,"To Exit 4x4 LOW
+Slow to 3 MPH"
+W742,835,2,SC*,n/a,No,n/a,Amber,,"To Exit 4x4 LOW
+Slow to 5 km/h"
+W736,836,2,SC*,n/a,No,n/a,Amber,,"To Exit 4x4 LOW
+Apply Brake"
+W737,837,2,SC*,n/a,No,n/a,Amber,,"To Exit 4x4 LOW
+Shift to N"
+W738,838,2,SC*,n/a,No,n/a,Amber,,"To Exit 4x4 LOW
+Apply Clutch"
+W739,839,2,SC*,n/a,No,n/a,Amber,,4x4 Shift in Progress
+W740,840,2,TT/RTT,n/a,No,tbd.30,Amber,,
+W750,845,2,TT/RTT,n/a,No,tbd.31,Amber,,
+W850,850,2,TA*,4,No,n/a,Amber,No,"Could Not Program
+Integrated Key"
+W851,851,2,,,,n/a,Neutral,No,"MyKey not
+Created"
+W769,865,2,SC*,n/a,No,n/a,Amber,info,"Low Fuel
+Pressure"
+W770,870,2,SC*,n/a,No,G.10,Amber,No,"Water in Fuel
+Drain Filter"
+W780,880,2,SC*,n/a,No,G.12,Amber,No,"Check Fuel
+Cap"
+W781,881,2,SC*,n/a,No,n/a,Amber,No,"Check Fuel Fill
+Inlet"
+W3350,884,2,SC*,n/a,No,M.12,Neutral,No,Ready to Drive
+W3350a,884,2,SC*,n/a,No,tbd.95,Neutral,No,Ready to Drive
+W1810,884,2,TA*,4,No,M.12,Neutral,No,Ready to Drive
+W1810a,884,2,TA*,4,No,tbd.95,Neutral,No,Ready to Drive
+W3351,885,2,SC*,n/a,No,M.12,Neutral,No,"Ready to Drive
+Budget set to XXX mi"
+W3351a,885,2,SC*,n/a,No,tbd.95,Neutral,No,"Ready to Drive
+Budget set to XXX mi"
+W1813,885,2,TA,4,No,M.12,Neutral,No,"Ready to Drive
+Budget set to XXX mi"
+W1813a,885,2,TA,4,No,tbd.95,Neutral,No,"Ready to Drive
+Budget set to XXX mi"
+W3352,886,2,SC*,n/a,No,M.12,Neutral,No,"Ready to Drive
+Budget set to XXX km"
+W3352a,886,2,SC*,n/a,No,tbd.95,Neutral,No,"Ready to Drive
+Budget set to XXX km"
+W1814,886,2,TA,4,No,M.12,Neutral,No,"Ready to Drive
+Budget set to XXX km"
+W1814a,886,2,TA,4,No,tbd.95,Neutral,No,"Ready to Drive
+Budget set to XXX km"
+W1811,887,2,TA,4,No,n/a,Neutral,No,Budget set to XXX mi
+W1812,888,2,TA,4,No,n/a,Neutral,No,Budget set to XXX km
+W790,889,2,TT/RTT,n/a,No,tbd.32,Amber,,
+W785,890,2,TT/RTT,n/a,No,tbd.29,Amber,,
+W3353,892,2,SC*,n/a,No,M.12,Neutral,No,"Ready to Drive
+XXX% Charged"
+W3353a,892,2,SC*,n/a,No,tbd.95,Neutral,No,"Ready to Drive
+XXX% Charged"
+W3570,900,2,TA*,10,No,n/a,Neutral,Yes,Turn Off\nTraction Control\nTo Aid in Gettting\nUnstuck?\nYes\nNo
+W901,901,2,TA*,4,No,J.15,Amber,No,"Traction Control
+Off"
+W902,902,2,TA*,4,No,n/a,Amber,No,"AdvanceTrac
+SPORT MODE"
+W903,903,2,TA*,4,No,J.15,Amber,No,"AdvanceTrac
+Off"
+W904,904,2,TA*,4,No,n/a,Amber,No,"AdvanceTrac
+On"
+W905,905,2,SC*,n/a,No,n/a,Amber,No,"Service Tire
+Mobility Kit"
+W906,906,2,TA*,4,No,n/a,Amber,No,"Traction Control
+On"
+W3567,910,2,TA*,4,No,n/a,Amber,No,Wet/Icy Mode\nOn
+W3568,911,2,TA*,4,No,n/a,Amber,No,Wet/Icy Mode\nOff
+W2500,920,2,TA*,4,No,n/a,Amber,No,"AdvanceTrac On - 
+MyKey Setting"
+W2501,921,2,TA*,4,No,n/a,Amber,No,"Traction Control On -
+MyKey Setting"
+W860,930,2,TA,2,No,n/a,Amber,info,"MyKey Active
+Drive Safely"
+W862,931,2,TA,4,No,n/a,Amber,info,"Speed Limited
+to 80 MPH"
+W863,931,2,TA,4,No,n/a,Amber,info,"Speed Limited
+to YYY MPH"
+W864,932,2,TA,4,No,n/a,Amber,info,"Speed Limited
+to 130 km/h"
+W865,932,2,TA,4,No,n/a,Amber,info,"Speed Limited
+to YYY km/h"
+W870,933,2,SC*,n/a,No,n/a,Amber,Mykey speed chime,"Check Speed
+Drive Safely"
+W872,934,2,SC*,n/a,No,n/a,Amber,MyKey speed,"Near Vehicle
+Top Speed"
+W874,935,2,SC*,n/a,No,n/a,Amber,MyKey speed,"Vehicle at
+Top Speed 
+of MyKey Setting"
+W880,936,2,SC*,n/a,No,n/a,Amber,info,"Buckle Up to
+Unmute Audio"
+W890,937,2,TA,4,No,n/a,Amber,info,"AdvanceTrac On - 
+MyKey Setting"
+W891,938,2,TA,4,No,n/a,Amber,info,"Traction Control On -
+MyKey Setting"
+W892,939,2,TA,4,No,n/a,Amber,No,"MyKey
+Park Aid Cannot
+be Deactivated"
+W893,940,2,SC*,n/a,No,n/a,Amber,No,"TracKey 
+Active
+Track Use Only"
+W894,941,2,SC*,n/a,No,n/a,Amber,No,"TracKey 
+Idle Enabled"
+W895,942,2,TA,4,No,n/a,Amber,No,"Lane Keeping Alert
+On
+MyKey Setting"
+W1653,943,2,SC,n/a,No,n/a,Amber,No,"Rear Park Aid
+Deactivated
+Trailer Attached"
+W1654,944,2,SC*,n/a,No,n/a,Amber,Info,"Blind Spot and
+Cross Traffic Alert
+Deactivated
+Trailer Attached "
+W1026,945,2,SC*,n/a,No,n/a,Amber,info,"Driver  Select
+Suspension
+Malfunction
+Service Required"
+W1027,945,2,SC*,n/a,No,n/a,Amber,info,"Drive Control
+Malfunction
+Service Required"
+W951,951,2,SC*,n/a,No,n/a,Red,hard,"Exhaust System
+Overheated
+Stop Safely NOW"
+W952,952,2,SC*,n/a,No,n/a,Amber,info,"DEF Level
+Range: XXXX mi
+Refill Soon"
+W953,953,2,SC*,n/a,No,n/a,Amber,info,"DEF Level
+Range: XXXX km
+Refill Soon"
+W954,954,2,SC*,n/a,No,n/a,Amber,info,"DEF Level Low
+Range: XXXX mi
+Refill Now"
+W955,955,2,SC*,n/a,No,n/a,Amber,info,"DEF Level Low
+Range: XXXX km
+Refill Now"
+W956,956,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY MPH
+ in XXXX mi"
+W957,957,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY km/h
+ in XXXX km"
+W958,958,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY MPH
+ Upon Restart"
+W959,959,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY km/h
+ Upon Restart"
+W960,960,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY MPH"
+W961,961,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Speed Limited
+ to YY km/h"
+W962,962,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Engine Idled Soon"
+W962_4,962,2,TA,10,No,n/a,Amber,No,DEF Fault
+W963,963,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Level Empty
+Engine Idled
+See Manual"
+W964,964,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited 
+to  YY MPH
+in XXXX mi"
+W965,965,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited
+to YY km/h
+ in XXXX km"
+W966,966,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited 
+to YY MPH
+Upon Restart"
+W967,967,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited 
+to YY km/h 
+Upon Restart"
+W968,968,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited
+to YY MPH"
+W969,969,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Speed Limited
+to YY km/h"
+W969_2,969,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"DEF Fault
+Engine Idled
+Soon"
+W969_4,969,2,TA,10,No,n/a,Amber,Yes,DEF Fault\nEngine Idled\nSee Manual
+W970,970,2,SC*,n/a,No,n/a,Amber,info,"Off Road Mode
+For Off Road,
+Slow to 5MPH"
+W973,970,2,SC*,n/a,No,n/a,Amber,info,"Off Road Mode
+For Off Road,
+Slow to 8 km/h"
+W971,971,2,TA*,4,No,n/a,Amber,info,Enter Off Road Mode Enabled
+W972,972,2,TA*,4,No,n/a,Amber,info,Exit Off Road Mode
+W974,974,2,TA*,4,No,J.13,Amber,info,Hill Descent Control-READY
+W975,975,2,TA*,4,No,J.13,Amber,No,Hill Descent Control- Active
+W976,976,2,TA*,4,No,J.13,Amber,info,Hill Descent Control- OFF
+W977_2,977,2,TA*,10,No,J.13,Amber,info,"For Hill Descent
+Reduce Speed
+20 MPH or Less"
+W977_3,977,2,TA*,10,No,J.13,Amber,info,"For Hill Descent
+Reduce Speed
+32 km/h or Less"
+W977,977,2,TA*,4,No,J.13,Amber,No,"For Hill Descent
+Reduce Speed
+20MPH or Less"
+W977_1,977,2,TA*,4,No,J.13,Amber,No,"For Hill Descent
+Reduce Speed
+32 km/h or Less"
+W978,978,2,SC*,n/a,No,J.13,Amber,info,"Hill Descent
+Driver 
+Resume Control"
+W979,979,2,TA*,4,No,J.13,Amber,info,"Hill Descent Control
+Off
+System Cooling"
+W980,980,2,SC*,n/a,No,J.13,Amber,info,"Hill Descent Control
+Fault"
+W981,981,2,TA*,4,No,J.13,Amber,info,For Hill Descent Select Gear
+W989_2,989.2,2,TA*,4,No,J.930,Amber,No,"Normal Mode
+Active"
+W989_3,989.3,2,TA*,4,No,J.931,Amber,No,"Snow, Gravel, Grass
+Mode Active"
+W989_4,989.4,2,TA*,4,No,J.932,Amber,No,"Mud, Rut
+Mode Active"
+W989_5,989.5,2,TA*,4,No,J.933,Amber,No,"Sand Mode
+Active"
+W989_6,989.6,2,TA*,4,No,J.934,Amber,No,"Crawl Mode
+Active"
+W989_8,989.8,2,SC*,n/a,No,n/a,Amber,No,"Terrain Management
+System Fault"
+W989_91,989.91,2,TA*,4,No,n/a,Amber,No,"Mode Change Not
+Accepted, Retry"
+W991,991,2,SC*,n/a,No,n/a,Amber,info,"To Enter
+Crawl Mode
+ 4x4 LOW is Required"
+W992,992,2,SC*,n/a,No,n/a,Amber,info,"To Exit 4x4 LOW
+Exit Crawl Mode"
+W1000,1000,2,TA,4,No,n/a,Amber,No,"Normal Cruise Active
+Adaptive Braking Off"
+W1001,1001,2,NR,n/a,No,n/a,Amber,No,"Front Sensor
+Not Aligned"
+W1003,1003,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 20 MPH"
+W1004,1004,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 30 km/h"
+W1005,1005,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 55 MPH"
+W1006,1006,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 90 km/h"
+W1007,1007,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Release Accelerator Pedal"
+W1008,1008,2,SC*,n/a,No,n/a,Amber,No,"Locking Differential
+Engaged"
+W1009,1009,2,SC*,n/a,No,n/a,Amber,No,"Locking Differential
+Disengaged"
+W3525,1010,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 40 MPH"
+W3526,1011,2,SC*,n/a,No,n/a,Amber,No,"To Engage
+Locking Differential
+Slow to 65 km/h"
+W1029,1018,2,TT/RTT,n/a,No,K.16,Amber,,
+W1031,1031,2,SC*,n/a,No,n/a,Neutral,No,"Park Heater
+Not Started
+Low Fuel Level"
+W1032,1032,2,SC*,n/a,No,n/a,Neutral,No,"Park Heater
+Not Started
+Outside Temperature
+Too High"
+W1033,1033,2,SC*,n/a,No,n/a,Neutral,No,"Park Heater
+Not Started
+Vehicle Not Started
+Over 7 Days"
+W1034,1034,2,SC*,n/a,No,n/a,Neutral,No,"Park Heater
+Not Started
+Low Battery
+State of Charge"
+W1035,1035,2,SC*,n/a,Yes,n/a,Neutral,No,"Park Heater
+Timer Enabled"
+W1036,1036,2,SC*,n/a,No,n/a,Amber,No,"Change AWD
+Power Transfer Unit
+Lube"
+W1037,1036,2,SC*,n/a,No,n/a,Amber,No,"Change 4WD
+Power Transfer Unit
+Lube"
+W2050,1037,2,TA,4,No,n/a,Amber,No,"AWD 
+Power Transfer Unit 
+Lube Set to New"
+W2051,1037,2,TA,4,No,n/a,Amber,No,"4WD 
+Power Transfer Unit 
+Lube Set to New"
+W1890,1038,2,NR,n/a,Yes,n/a,Neutral,No,"Park Heater
+Running
+
+Press OK to Stop"
+W1038,1038,2,TT/RTT,n/a,Yes,D.31,Amber,No,
+W1039,1039,2,TT/RTT,n/a,Yes,"T.9951
+(Amber)",Amber,No,
+W1040,1040,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Shift to P, then 
+Restart Engine"
+W1041,1041,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Press Brake 
+to Start Engine"
+W1043,1043,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Manual Restart Required"
+W1044,1044,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Press Clutch
+to Start Engine"
+W1045,1045,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Press a Pedal
+to Start Engine"
+W1046,1046,2,SC*,n/a,No,"F.919
+(Amber)",Amber,info,"Auto StartStop
+Select Neutral
+To Start Engine"
+W1047,1047,2,SC*,n/a,No,"F.919
+(Amber)",Amber,Soft,"Auto StartStop
+Malfunction
+Service Required"
+W1048,1048,2,SC*,n/a,No,"F.919
+(Amber)",Amber,No,"Auto StartStop
+Press Brake
+Harder to Activate"
+W1049,1049,2,TA,4,No,n/a,Neutral,No,"Auto StartStop
+Not Available"
+W1056,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Confirm Park Brake
+Apply Before
+Exiting the Vehicle"
+W1057,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Cannot Shift Trans
+Use Park Brake
+ to Secure Vehicle"
+W1058,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Service Required"
+W1059,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Vehicle is
+Shifting to Park"
+W1060,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Reverse Unavailable
+Service Required"
+W1061,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Drive Unavailable
+Select S for Drive
+Service Required"
+W1062,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Drive Unavailable
+Select L for Drive
+Service Required"
+W1063,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Neutral Unavailable
+Service Required"
+W1064,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Sport Unavailable
+Service Required"
+W1065,1050,2,SC*,n/a,No,n/a,Red,Hard,"SHIFT SYS FAULT
+Low Unavailable
+Service Required"
+W1050 ,1050,2,SC*,n/a,No,n/a,Amber,info,"Invalid Gear 
+Selection"
+W1051,1050,2,SC*,n/a,No,n/a,Amber,info,"Depress Brake
+to
+Shift from Park"
+W1053,1050,2,SC*,n/a,No,n/a,Amber,info,"Stay in 
+Neutral Mode
+Engaged"
+W1066,1050,2,SC*,n/a,No,n/a,Neutral,Info,"Neutral Tow Engaged
+Turn Ignition Off
+for Towing"
+W1067,1050,2,SC*,n/a,No,n/a,Neutral,Info,"Neutral Tow Engaged
+Depress Brake and
+Select Park to
+Exit Neutral Tow"
+W1068,1050,2,SC*,n/a,No,n/a,Neutral,Info,"Neutral Tow
+Remove Park Brake
+for Towing"
+W1071,1050,2,SC*,n/a,No,n/a,Neutral,Info,"Reverse
+will engage
+at Low Speed"
+W1054b,1050,2,TA,10,Yes,n/a,Neutral,No,"Neutral Tow 
+Engaged
+See Manual 
+to Disable "
+W1070,1050,2,NR,n/a,Yes,n/a,Neutral,No,"Neutral Tow Enabled
+Leave Transmission 
+in Neutral"
+W1052,1050,2,SC*,n/a,No,n/a,Neutral,No,"To Stay in Neutral
+When Exiting Vehicle
+Select N Again"
+W1069,1050,2,TA,10,No,n/a,Neutral,No,"Neutral Tow
+Disengaged"
+W1072,1050,2,SC*,n/a,Yes,n/a,Red,Hard,
+W1073,1050,2,,,,n/a,n/a,,
+W1074,1050,2,,,,n/a,n/a,,
+W1075,1050,2,,,,n/a,n/a,,
+W1076,1050,2,,,,n/a,n/a,,
+W1077,1050,2,,,,n/a,n/a,,
+W1078,1050,2,,,,n/a,n/a,,
+W1079,1050,2,,,,n/a,n/a,,
+W3555,30,1,SC*,n/a,No,K.15,Neutral,n/a,Adaptive Cruise
+W1080,1080,2,SC*,n/a,No,"A.19
+(Red)",Neutral,No,"Spinout Detected
+Hazards Activated"
+W1081,40,1,SC*,n/a,No,K.15,Red,Yes,Adaptive Cruise
+W1082,1082,2,SC*,n/a,No,K.15,Red,Yes,Collision Warning
+W1083,1083,2,SC*,n/a,No,n/a,Neutral,No,"Brake Applied
+Power Reduced"
+W1085,1085,2,SC*,n/a,Yes,n/a,Neutral,Soft,"Switches
+Inhibited
+Security Mode"
+W1086,1086,2,SC*,n/a,Yes,L.10,Amber,info,"Child Lock
+Fault
+See Manual"
+W1087,1087,2,TA,10,No,n/a,Neutral,No,"Factory Keypad
+Code
+ X X X X X"
+W1349,1349,2,SC*,n/a,No,n/a,Red,Hard,"Ceramic Brakes
+Replace Front
+Brake Pads"
+W1350,1350,2,SC*,n/a,No,n/a,Red,Hard,"Park Brake
+Malfunction
+Service Now"
+W1350a,1350,2,TA,10,Yes,n/a,Red,Hard,"Park Brake
+Malfunction
+Service Now"
+W1351,1350,2,SC*,n/a,No,n/a,Red,Hard,"Park Brake
+Not Applied"
+W1351b,1350,2,TA*,10,Yes,n/a,Red,Hard,"Park Brake
+Not Applied"
+W1352,1350,2,SC*,n/a,No,n/a,Red,Hard,"Park Brake
+Maintenance
+Mode"
+W1480,1350,2,SC*,n/a,No,n/a,Red,Hard,"Park Brake
+System
+Overheated"
+W1481,1350,2,SC*,n/a,No,n/a,Red,Hard,"Park Brake
+Not Released"
+W1477,1350,2,SC*,n/a,No,n/a,Neutral,info,"Park Brake
+Use Switch
+to Release"
+W1479,1350,2,SC*,n/a,No,n/a,Amber,info,"Park Brake
+Limited Function
+Service Required"
+W1450,1350,2,TA,10,Yes,n/a,Amber,info,"Park Brake
+Limited Function
+Service Required"
+W1351a,1350,2,SC*,n/a,No,n/a,Neutral,No,"Park Brake
+Not Applied
+Apply Park Brake"
+W1351c,1350,2,TA*,10,Yes,n/a,Neutral,No,"Park Brake
+Not Applied
+Apply Park Brake"
+W1352a,1350,2,SC*,n/a,No,n/a,Amber,No,"Park Brake
+Maintenance
+Mode"
+W1352b,1350,2,TA,10,Yes,n/a,Amber,No,"Park Brake
+Maintenance
+Mode"
+W1478,1350,2,TA*,4,No,n/a,Neutral,No,"To Release:
+Press Brake
+and Switch"
+W1491,1350,2,TA*,4,Yes,n/a,Neutral,No,"Park Brake
+On"
+W1492,1350,2,SC*,n/a,No,n/a,Neutral,No,"Park Brake
+Off"
+W1481a,1350,2,SC*,n/a,No,n/a,Red,"Park Brake 
+continuous","Release
+Park Brake"
+W1483,1350,2,,,,,,,"reserved
+do not translate"
+W1365,1365,2,TA,30,No,H.07,Neutral,No,"Transmission
+Warming Up
+Please Wait"
+W1366,1366,2,TA,4,No,n/a,Neutral,info,"Press Brake
+Pedal"
+W1429,1429,2,TA,10,No,B.928,Amber,soft,"Hill Start
+Assist
+Not Available"
+W1430,1430,2,SC*,n/a,No,tbd.10,Neutral,No,"Adaptive Cruise
+Shift Down"
+W1431,70,1,SC*,n/a,No,n/a,Amber,Soft,"Adaptive Cruise - 
+Driver Resume
+Control"
+W1432,1432,2,SC*,n/a,No,n/a,Neutral,No,"Adaptive Cruise 
+Speed Too Low
+to Activate"
+W1484,1484,2,TA,10,No,H.07,Amber,soft,"Transmission
+Over Temperature
+Stop Safely"
+W1485,1485,2,SC*,n/a,No,H.07,Red,Hard,"Transmission
+Malfunction
+Service Now"
+W1487,1487,2,TA,10,No,H.07,Amber,soft,"Transmission
+Service Required"
+W1522,1522,2,SC*,n/a,Yes,n/a,Neutral,No,"Key
+Battery Low
+Replace Soon"
+W1531,1531,2,TA,10,No,H.07,Neutral,info,"Transmission
+Too Hot
+Press Brake"
+W1532,1532,2,TA,10,No,H.07,Amber,Soft,"Transmission
+Too Hot
+Press Brake"
+W1533,1533,2,SC*,n/a,No,H.07,Red,Hard,"Transmission
+Too Hot
+Press Brake"
+W1534,1534,2,SC*,n/a,No,H.07,Red,Hard,"Transmission
+Overheating
+Stop Safely"
+W1591,1591,2,TA,10,No,H.07,Amber,Soft,"Transmission
+Limited Function
+See Manual"
+W1710,1710,2,TA,15,No,n/a,Neutral,No,"Active City Stop
+Auto Braking"
+W1711,1711,2,SC*,n/a,No,n/a,Amber,info,"Active City Stop  
+Sensor Blocked
+Clean Screen"
+W1712,1712,2,SC*,n/a,No,n/a,Amber,info,"Active City Stop 
+Malfunction"
+W1796,1796,2,SC*,n/a,No,H.07,Neutral,No,"Transmission
+Adjusted"
+W1797,1797,2,SC*,n/a,No,H.07,Neutral,No,"Transmission
+AdaptMode"
+W1798,1798,2,SC*,n/a,No,H.07,Neutral,No,"Transmission
+IndicatMode
+Lockup On"
+W1799,1799,2,SC*,n/a,No,H.07,Neutral,No,"Transmission
+IndicatMode
+Lockup Off"
+W1807,1807,2,SC*,n/a,No,n/a,Amber,info,Approaching Range Limit To return Home
+W1808,1808,2,SC*,n/a,No,n/a,Amber,info,"Outside Air Temperature
+Low
+Plug Vehicle in 
+When not in use"
+W1809,1809,2,SC*,n/a,No,n/a,Amber,info,"Outside Air Temperature
+High
+Plug Vehicle in 
+When not in use"
+W1818,1818,2,SC,n/a,No,n/a,Amber,info,"Reduce Climate
+Use for
+More Range"
+W1850,1850,2,SC*,n/a,No,n/a,Amber,info,"Tracking and Blocking
+Fault
+Service Required"
+W1851,1851,2,SC*,n/a,No,n/a,Amber,info,"Tracking
+and 
+Blocking
+Active"
+W1860,1860,2,TT/RTT,n/a,No,J.16,Amber/ Red,No,
+W1863,1863,2,TT/RTT,n/a,No,tbd.99,Green,No,
+W1864,1864,2,TT/RTT,n/a,No,tbd.100,Green,No,
+W1865,1865,2,TT/RTT,n/a,No,h.900,Green,No,
+W1866,1866,2,TT/RTT,n/a,No,tbd.10,Green,No,
+W1867,1867,2,TT/RTT,n/a,No,tbd.90,Orange,No,
+W1880,1880,2,TA,4,No,n/a,Amber,No,"110v AC Outlet
+Shutting down
+to save battery
+See Manual
+"
+W1900,1900,2,SC*,n/a,No,n/a,Amber,No,"4x4 LOW
+Engaged
+Start in gear allowed"
+W1950,1950,2,TA,4,No,n/a,Neutral,No,"Traffic Sign
+Reduced
+Performance
+See Manual"
+W2020,2020,2,TA*,4,No,n/a,Neutral,No,"Auto StartStop 
+Deactivated 
+by Switch"
+W2021,2021,2,TA*,4,No,n/a,Neutral,No,"Auto StartStop 
+Activated 
+by Switch"
+W2030,2030,2,SC*,n/a,No,n/a,Amber,info,"Tow Bar
+Unlocked
+Towing Prohibited
+See Manual"
+W2031,2031,2,SC*,n/a,No,n/a,Amber,info,"Tow Bar
+Fault
+Towing Prohibited
+Service Required"
+W2032,2032,2,SC*,n/a,No,n/a,Amber,info,"Tow Bar
+Not Activated
+Start Engine and Retry"
+W2033,2033,2,SC*,n/a,No,n/a,Amber,info,"Tow Bar
+Extended
+Check Trailer
+Wiring"
+W2035,2035,2,TA*,4,No,n/a,Neutral,No,"Park Heater
+Stopping"
+W2040,2040,2,TT/RTT,n/a,No,tbd.23,Amber,,
+W2041,2041,2,TT/RTT,n/a,No,J.924,Amber,Overspeed Warning chime,
+W2045,2045,2,SC*,n/a,No,n/a,Amber,No,"Cold Start Reservoir
+Fuel Level 
+Low"
+W2052,2052,2,TA*,4,No,n/a,Amber,No,"Drive Mode
+Selection
+Not available"
+W2053,2053,2,TA*,4,No,"J.930,tbd.26, tbd.27, tbd.28, tbd.33, tbd.34", ,No,
+W2055,2055,2,TA*,4,No,"tbd.46, tbd.47,tbd.48",Neutral,No,
+W2056,2056,2,TA*,4,No,,Amber,No,"Steering Feel
+Selection
+Not Available
+"
+W2070,2060,2,TT/RTT,n/a,No,A.903,white,No,
+W2063,2063,2,SC*,n/a,No,n/a,Red,Hard,"Auto Hold
+System Fault
+Press Brake"
+W2064,2064,2,TT/RTT,n/a,No,tbd.44,Neutral,,
+W2065,2065,2,TT/RTT,n/a,No,tbd.43,Green,,
+W2066,2066,2,SC*,n/a,No,n/a,amber,soft,"Auto Hold
+System Fault"
+W2067,2067,2,SC*,n/a,No,n/a,Neutral,info,"Auto Hold
+Close Door and
+  Fasten Seat Belt
+ to Enable"
+W2068,2068,2,SC*,n/a,No,n/a,Neutral,info,"Auto Hold
+Press Brake and
+Switch to Release"
+W2069,2069,2,TA,4,No,tbd.44,amber,info,"Auto Hold
+Not Available"
+W2080,2080,2,TA,4,No,n/a,Neutral,No,"Memory Recall
+Not Permitted
+While Driving"
+W2081,2081,2,TA,4,No,D.990,Neutral,No," Memory {0} Saved
+{Graphic}"
+W2110,2110,2,TA,4,No,None,Neutral,info,"Advanced Settings
+Vehicle must be
+stationary
+to access settings"
+W2111,2111,2,TA,4,No,None,Neutral,info,"MyView 
+Max screens reached 
+Remove a screen to add others"
+W2115,2115,2,TA,4,No,None,Amber,memory feedback,"Launch Control
+Not Available"
+W2116,2116,2,TA,4,No,None,Amber,No,"Line Lock
+Not Available
+See Manual"
+W2117,2117,2,TA,4,No,None,Neutral,No,"Line Lock
+Released"
+W2118,2118,2,TA*,10,No,None,Neutral,No,"Maintenance
+Set Date"
+W2119,2119,2,TA*,10,No,X.07,Amber,info,"Service
+Required"
+W2120,2120,2,TA,4,No,None,Neutral,No,"Service
+Done"
+W2121,2121,2,TA*,4,No,None,Neutral,No,"Maintenance
+Set Initial
+Date"
+W2122,2122,2,TA*,4,No,None,Neutral,No,Maintenance\nReminder\nOff
+W2125,2125,2,SC*,n/a,No,J.04,Amber,soft,"Adaptive Steering
+Initialization"
+W2126,2126,2,SC*,n/a,No,J.04,Amber,soft,"Adaptive Steering
+Fault
+Service Required"
+W2127,2127,2,SC*,n/a,No,J.04,Red,hard,"Adaptive Steering
+Loss
+Do Not Drive"
+W2128,2128,2,SC*,n/a,No,None,Neutral,No,"Adaptive Steering
+Off
+Demo Mode"
+W3000,3000,2,TA*,4,No,None,Neutral,No,"Lane Keeping System
+On"
+W3001,3001,2,TA*,4,No,None,Neutral,No,"Lane Keeping System
+Off"
+W3002,3002,2,TT/RTT,n/a,No,I.08,Neutral,No,n/a
+W3003,3003,2,TT/RTT,n/a,No,I.08,Green,No,n/a
+W3004,3004,2,SC*,n/a,No,None,Amber,No,"Electronic Limited
+Slip Differential
+Locked"
+W3005,3005,2,SC*,n/a,No,None,Amber,No,"Electronic Limited
+Slip Differential
+Unlocked"
+W3006,3006,2,SC*,n/a,No,None,Amber,No,"Check
+ Electronic Limited
+Slip Differential"
+W3007,3007,2,SC*,n/a,No,None,Amber,Yes,"Electronic Limited
+Slip Differential
+Off
+See Owners Manual"
+W3008,3008,2,SC*,n/a,No,None,Amber,No,"Electronic Limited
+Slip Differential
+Restored to Normal"
+W3009,3009,2,SC*,n/a,No,None,Amber,No,"Electronic Limited
+Slip Differential
+Temporarily Disabled"
+W3010,3010,2,SC*,n/a,No,None,Amber,No,"Electronic Limited
+Slip Differential
+Locking Feature 
+Not Available"
+W3260,3260,2,TA*,4,No,n/a,Neutral,info,"MyColor
+Not Adjustable
+In Daytime"
+W3261,3261,2,TA*,4,No,n/a,Neutral,info,"MyColor
+Not Adjustable
+In Daytime"
+W3262,3262,2,TA*,4,No,n/a,Neutral,info,"MyColor
+Not Adjustable
+In Daytime"
+W3263,3263,2,TA,4,No,n/a,Neutral,No,"View/Clear
+Results
+While Stopped"
+W3264,3264,2,SC*,n/a,No,n/a,Amber,soft,"AdBlue® Low
+Range: XXXX mi
+Refill Soon"
+W3265,3265,2,SC*,n/a,No,n/a,Amber,soft,"AdBlue® Low
+Range: XXXX km
+Refill Soon"
+W3266,3266,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® Low
+No engine start
+in XXX mi"
+W3267,3267,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® Low
+No engine start
+in XXXX km"
+W3268,3268,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® level
+empty. Refill to
+start engine"
+W3269,3269,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® sys
+Fault
+Service req'd"
+W3270,3270,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® sys
+No engine start
+in XXXX mi"
+W3271,3271,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® sys
+No engine start
+in XXXX km"
+W3272,3272,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"AdBlue® sys
+Service req'd
+to start engine"
+W3278,3278,2,TA*,4,No,n/a,Neutral,No,"Features turned off
+to optimize
+Snow Plow use"
+W3556,10,1,SC*,n/a,No,K.15,Neutral,n/a,Pre-Collision Assist
+W3295,3295,2,NR,n/a,No,tbd.35,Neutral,No,"Pre-Collision Assist
+On
+Off"
+W3296,20,1,SC*,n/a,No,K.15,Red,Yes,Pre-Collision Assist
+W3297,3297,2,SC*,n/a,No,k.15,Amber,Info,"Pre-Collision Assist
+Not Available"
+W3298,3298,2,SC*,n/a,No,n/a,Amber,Info,"Pre-Collision Assist
+Not Available
+Sensor Blocked"
+W3300,3300,2,TA,4,Yes,n/a,Amber,info,"Top Deactivated
+Remove Covers"
+W3301,3301,2,TA,4,Yes,n/a,Amber,info,"Top Deactivated
+Reduce Speed"
+W3302,3302,2,SC*,n/a,Yes,n/a,Amber,info,"Top Not Secure
+Reduce Speed"
+W3304,3304,2,SC*,n/a,No,n/a,Amber,soft,"ARNOX32 Low
+Range: XXXX mi
+Refill Soon"
+W3305,3305,2,SC*,n/a,No,n/a,Amber,soft,"ARNOX32 Low
+Range: XXXX km
+Refill Soon"
+W3306,3306,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 Low
+No engine start
+in XXX mi"
+W3307,3307,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 Low
+No engine start
+in XXXX km"
+W3308,3308,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 level
+empty. Refill to
+start engine"
+W3309,3309,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 sys
+Fault
+Service req'd"
+W3310,3310,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 sys
+No engine start
+in XXXX mi"
+W3311,3311,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 sys
+No engine start
+in XXXX km"
+W3312,3312,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARNOX32 sys
+Service req'd
+to start engine"
+W3314,3314,2,SC*,n/a,No,n/a,Amber,soft,"ARLA32 Low
+Range: XXXX mi
+Refill Soon"
+W3315,3315,2,SC*,n/a,No,n/a,Amber,soft,"ARLA32 Low
+Range: XXXX km
+Refill Soon"
+W3316,3316,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 Low
+No engine start
+in XXX mi"
+W3317,3317,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 Low
+No engine start
+in XXXX km"
+W3318,3318,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 level
+empty. Refill to
+start engine"
+W3319,3319,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 sys
+Fault
+Service req'd"
+W3320,3320,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 sys
+No engine start
+in XXXX mi"
+W3321,3321,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 sys
+No engine start
+in XXXX km"
+W3322,3322,2,TA,10,No,n/a,Amber,UREA Alarm Diesel,"ARLA32 sys
+Service req'd
+to start engine"
+W3325,3325,2,TA,4,No,n/a,Neutral,info,"Lap Timer
+Cancelled"
+W3330,3330,2,SC*,n/a,n/a,n/a,Neutral,No,"Pro Trailer Backup Assist
+SETUP COMPLETE"
+W3331,3331,2,SC*,n/a,n/a,n/a,Neutral,No,"Pro Trailer Backup Assist
+SETUP INCOMPLETE
+Trailer Not Calibrated"
+W3340,3340,2,TA*,4,No,"tbd.75, tbd.76, tbd.77, tbd.78, tbd.79, tbd.80, tbd.81, tbd.82, tbd.83, tbd.84, tbd.85, tbd.86",Neutral,,"Drive Mode
+{5 ICONS}
+{Mode}
+"
+W3341,3341,2,TA*,4,No,"tbd.75, tbd.76, tbd.77, tbd.78 ",Neutral,No,"Damper Mode
+{Normal Icon}{Sport Icon}"
+W3342,3342,2,TA*,4,No,"tbd.77, tbd.78, tbd.79, tbd.80",Neutral,No,"Damper Mode
+{Sport Icon}{Track Icon}"
+W3343,3343,2,TA*,4,No,"tbd.82, tbd.83",Neutral,No,"Damper Mode
+{Drag Strip Icon}"
+W3344,3344,2,TA*,4,No,n/a,Amber,No,"Damper Mode
+Selection
+Not Available"
+W3345,3345,2,TA*,4,No,"tbd.83, tbd.84, tbd.85, tbd.86",Neutral,No,"Exhaust Mode
+{Normal Icon}{Sport Icon}"
+W3346,3346,2,TA*,4,No,n/a,Amber,No,"Exhaust Mode
+Selection
+Not Available"
+W3347,3347,2,TA*,4,No,"tbd.75, tbd.76",Neutral,No,"Damper Mode
+{Normal Icon}"
+W3360,3360,2,SC*,n/a,No,,Amber,info,"Air Suspension
+Fault
+Service Required"
+W3361,3361,2,TA,4,No,,Neutral,info,"Air Suspension
+ON
+Due to 
+Vehicle Speed"
+W3370,3370,2,TA*,4,,L.09,Neutral,info,"Child Lock
+ON"
+W3371,3371,2,TA*,4,,L.10,Neutral,info,"Child Lock
+OFF"
+W3372,3372,2,TA*,4,,L.05,Neutral,info,Door Unlocked
+W3373,3373,2,TA*,4,,L.04,Neutral,info,"Doors Locked
+Unlock Before Opening"
+W3374,3374,2,SC*,n/a,,n/a,Red,soft,"Driver Door Fault
+Use Inside 
+Override Lever In
+Map Pocket"
+W3375,3375,2,SC*,n/a,,n/a,Red,soft,"Door Fault
+Service Required"
+W3380,3380,2,TA*,4,No,J.934,Amber,No,"Rock Mode
+Active"
+W3381,3381,2,SC*,n/a,No,n/a,Amber,info,"To Enter
+Rock Mode
+ 4x4 LOW is Required"
+W3382,3382,2,SC*,n/a,No,n/a,Amber,info,"To Exit 4x4 LOW
+Exit Rock Mode"
+W3383,3383,2,TA*,4,No,J.931,Amber,No,"Mud, Snow, Grass
+Mode Active"
+W3389,3389,2,SC*,n/a,No,n/a,Amber,soft,"Axle
+Over Temperature
+Reduce Speed"
+W3390,3390,2,TT/RTT,n/a,No,TBD.91,Green,No,
+W3400,3400,2,SC*,n/a,No,n/a,Neutral,Info,"Park
+will engage
+at Low Speed"
+W3401,3401,2,SC*,n/a,No,n/a,Neutral,Info,"Stay in Neutral Mode
+Press Brake to
+Unlock Shifter"
+W3402,3402,2,SC*,n/a,No,n/a,Neutral,No,"Select S
+to Confirm
+Stay in Neutral Mode"
+W3436,3402,2,SC*,n/a,No,n/a,Neutral,No,"Select L
+to Confirm
+Stay in Neutral Mode"
+W3437,3402,2,SC*,n/a,No,n/a,Neutral,No,"Select M
+to Confirm
+Stay in Neutral Mode"
+W3403,3403,2,SC*,n/a,No,n/a,Neutral,Info,"Shift
+to Park"
+W3404,3404,2,TA*,4,No,n/a,Neutral,info,"Sport
+Not Available
+in Selected Gear"
+W3406,3406,2,SC*,n/a,No,n/a,Amber,soft,"Power Step
+Fault"
+W3407,3407,2,SC*,n/a,No,n/a,Neutral,info,"Drive Inhibited
+Step Deployed
+Stow Step"
+W3408,3408,2,TA*,4,No,n/a,Amber,soft,"Fleet Monitor
+Owner Notified"
+W3409,3409,2,TA*,4,No,n/a,Amber,info,"Engine Brake
+ On"
+W3410,3410,2,TA*,4,No,n/a,Amber,info,"Automatic
+Engine Brake
+On"
+W3411,3411,2,TT/RTT,n/a,No,B.16,Amber,,
+W3412,3412,2,TT/RTT,n/a,No,tbd.93,Amber,,
+W3562,3413,2,TA*,4,No,n/a,Amber,Yes,"Engine Brake
+Off"
+W3414,3414,2,TT/RTT,n/a,No,L.303(green),Amber,,
+W3415,3415,2,TA*,4,No,n/a,Neutral,info,"Police Engine Idle
+Not Available
+"
+W3416,3416,2,SC*,n/a,No,n/a,Amber,soft,"Police Engine Idle
+Fault
+"
+W3417,3417,2,SC*,n/a,No,n/a,Amber,soft,"Police Engine Idle
+Fault Restart Engine"
+W3418,3418,2,NR,n/a,No,L.303(green),Neutral,info,"Police Engine Idle 
+Active Reinsert 
+Key or Press Button
+"
+W3420,3420,2,TT/RTT,n/a,No,M.04,Amber,,
+W3423,3423,2,SC*,n/a,No,n/a,Amber,soft,"Trailer Tire Pressure
+Low"
+W3424,3424,2,SC*,n/a,No,tbd.97,Neutral,soft,"Trailer Tire Pressure
+{Graphic}"
+W3425,3425,2,SC*,n/a,No,tbd.97,Amber,soft,"Trailer Tire  Low
+{Graphic}"
+W3426,3426,2,SC*,n/a,No,None,Amber,soft,"Trailer Tire Pressure
+Sensor
+Fault"
+W3427,3427,2,SC*,n/a,No,None,Amber,soft,"Trailer Tire Pressure
+Monitor
+Fault"
+W3428,3428,2,TA,4,No,None,Neutral,info,"Vehicle must be
+stationary
+to access settings"
+W3429,3429,2,SC*,n/a,No,None,Amber,soft,"Trailer Tire Pressure
+Monitor Capability
+Not Detected"
+W3430,3430,2,SC*,n/a,No,None,Amber,soft,"Trailer Tire Pressure
+Indication
+Not Setup
+See Manual"
+W3435,3451,2,SC*,n/a,No,None,Red,hard,"Pedestrian Sounder
+Fault
+Service Now"
+W3440,3440,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+TBA 1
+:
+TBA 10
+Add Trailer
+
+ICON Press Knob to Exit"
+W3441,3441,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Stop Vehicle
+to Activate
+
+ICON Press Knob to Exit"
+W3442,3442,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Locating Sticker
+Please wait...
+
+ICON Press Knob to Exit"
+W3443,3443,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Backup Slowly
+Turn Knob to Steer
+
+ICON Press Knob to Exit"
+W3444,3444,2,NR,n/a,No,tbd.94,Red,Cross Traffic Alert-4,"Pro Trailer Backup AssistTM
+Stop Now
+Max. Trailer Angle
+
+ICON Press Knob to Exit"
+W3445,3445,2,NR,n/a,No,n/a,Red,Hard,"Pro Trailer Backup AssistTM
+Stop Now
+Take Control of
+Steering Wheel"
+W3446,3446,2,NR,n/a,No,tbd.94,Amber,Cross Traffic Alert -2,"Pro Trailer Backup AssistTM
+Reduce Speed
+Turn Knob to Steer
+
+ICON Press Knob to Exit"
+W3447,3447,2,SC*,n/a,No,n/a,Amber,soft,"Pro Trailer Backup AssistTM
+System is
+Not Available"
+W3448,3448,2,NR,n/a,No,n/a,Red,Hard,"Pro Trailer Backup AssistTM
+Stop Now
+Take Control of
+Steering Wheel"
+W3449,3449,2,NR,n/a,No,n/a,Red,Hard,"Pro Trailer Backup AssistTM
+Stop Now
+Take Control of
+Steering Wheel"
+W3450,3450,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Remove Hands
+from Steering Wheel
+to Activate.
+
+ICON Press Knob to Exit"
+W3451,3451,2,SC*,n/a,No,n/a,Neutral,info,"Pro Trailer Backup AssistTM
+Cancelled by Driver
+Take Control of
+Steering Wheel"
+W3452,3452,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Shift to Reverse
+to Activate.
+
+ICON Press Knob to Exit"
+W3453,3453,2,NR,n/a,No,tbd.94,Neutral,info,"Pro Trailer Backup AssistTM
+
+Sticker Located
+
+ICON Press Knob to Exit"
+W3454,3454,2,NR,n/a,No,n/a,Red,Hard,"Pro Trailer Backup AssistTM
+Stop Now
+Take Control of
+Steering Wheel"
+W3455,3455,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Drive Forward
+to Straighten Trailer.
+
+ICON Press Knob to Exit"
+W3456,3456,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Sticker Not Found
+Shift to Park
+
+ICON Press Knob to Exit"
+W3457,3457,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Sticker Not Found
+Refer to
+Owner's Manual.
+
+ICON Press Knob to Exit"
+W3458,3458,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+Drive Straight Forward
+to Calibrate.
+
+ICON Press Knob to Exit"
+W3459,3459,2,NR,n/a,No,tbd.94,Neutral,No,"Pro Trailer Backup AssistTM
+System
+Calibrating...
+
+ICON Press Knob to Exit"
+W3460,3460,2,NR,n/a,No,tbd.94,Neutral,info,"Pro Trailer Backup AssistTM
+Calibration Complete.
+Stop Vehicle
+to Activate.
+
+ICON Press Knob to Exit"
+W3462,3462,2,NR,n/a,No,n/a,Neutral,No,"Pro Trailer Backup AssistTM
+Reduce Speed
+to Calibrate"
+W3470,3470,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Exit
+UTT 1
+:
+UTT 10
+Add Trailer
+Press OK to Select"
+W3471,3471,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Stop Vehicle
+to Activate
+
+Press OK to Exit"
+W3472,3472,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Locating Sticker
+Please wait...
+
+Press OK to Exit"
+W3473,3473,2,SC*,n/a,No,n/a,Amber,soft,"Trailer Reverse GuidanceTM
+System is
+Not Available"
+W3474,3474,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Refer to Guide for
+Feature Operation
+
+Press OK to Exit"
+W3475,3475,2,NR,n/a,No,n/a,Neutral,info,"Trailer Reverse GuidanceTM
+
+Sticker Located
+
+Press OK to Exit"
+W3476,3476,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Drive Forward
+to Straighten Trailer.
+
+Press OK to Continue"
+W3477,3477,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Sticker Not Found
+Refer to
+Owner's Manual.
+
+Press OK to Exit"
+W3478,3478,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Drive Straight Forward
+to Calibrate.
+
+Press OK to Exit"
+W3479,3479,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+System
+Calibrating...
+
+Press OK to Exit"
+W3480,3480,2,NR,n/a,No,n/a,Neutral,info,"Trailer Reverse GuidanceTM
+Calibration Complete.
+Stop Vehicle
+to Activate.
+
+Press OK to Continue"
+W3481,3481,2,NR,n/a,No,n/a,Neutral,No,"Trailer Reverse GuidanceTM
+Reduce Speed
+to Calibrate"
+W3482,3482,2,NR,n/a,No,n/a,Neutral,No,Trailer Reverse GuidanceTM\nShift to Reverse\nto Activate\nPress OK to Exit
+W3483,3483,2,NR,n/a,No,n/a,Neutral,No,Press the Trailer Icon\nin Center Display\n{Graphic}\nPress OK to Exit
+W3485,3485,2,SC*,n/a,No,n/a,Neutral,No,"Trailer BLIS
+Exit
+Trailer 1
+:
+Trailer 10
+Add Trailer
+Press OK to Select"
+W3486,3486,2,SC*,n/a,No,n/a,Amber,info,"Cross Traffic Alert
+Deactivated
+Trailer Attached "
+W3487,3487,2,SC*,n/a,No,n/a,Amber,info,"
+Blind Spot Alert
+Deactivated
+Trailer Attached "
+W3488,3488,2,SC*,n/a,No,n/a,Amber,info,"Trailer BLIS
+Not available
+Due to 
+Invalid Trailer"
+W3490,3490,2,TA,10,No,n/a,Amber,No,"AdBlue® Level
+Max Refill zz L"
+W3491,3491,2,TA,10,No,n/a,Amber,No,"ARNOX32 Level
+Max Refill zz L"
+W3492,3492,2,TA,10,No,n/a,Amber,No,"ARLA32 Level
+Max Refill zz L"
+W3493,3493,2,TA,10,No,n/a,Amber,No,"AdBlue® Level
+Empty. Min
+Refill zz L"
+W3494,3494,2,TA,10,No,n/a,Amber,No,"ARNOX32 Level
+Empty. Min 
+Refill zz L"
+W3495,3495,2,TA,10,No,n/a,Amber,No,"ARLA32 Level
+Empty. Min
+Refill zz L"
+W3496,3496,2,SC*,n/a,No,n/a,Amber,soft,"Incorrect AdBlue®
+Service Required"
+W3497,3497,2,SC*,n/a,No,n/a,Amber,soft,"Incorrect ARNOX32
+Service Required"
+W3498,3498,2,SC*,n/a,No,n/a,Amber,soft,"Incorrect ARLA32
+Service Required"
+W3499,3499,2,TA,10,No,n/a,Amber,No,"AdBlue® Level 
+Min Refill zz L"
+W3500,3500,2,TA,10,No,n/a,Amber,No,"ARNOX32 Level
+Min Refill zz L"
+W3501,3501,2,TA,10,No,n/a,Amber,No,"ARLA32 Level
+Min Refill zz L"
+W3510,3510,2,SC*,n/a,No,n/a,Amber,No,"Side-Wind Stabilization
+Active"
+W3511,3511,2,TA*,4,No,None,Neutral,No,M0 10R Gear indication graphic
+W3513,3513,2,SC*,n/a,No,n/a,Neutral,No,"Tire Monitor
+Hold to Reset"
+W3514,3514,2,SC*,n/a,No,n/a,Neutral,No,"Tire Monitor
+Reset Complete"
+W3515,3515,2,SC*,n/a,No,n/a,Neutral,No,"Tire Monitor
+Reset Cancelled"
+W3516,3516,2,SC*,n/a,No,n/a,Neutral,No,"Tire Monitor
+Reset Failed"
+W3519,3519,2,SC*,n/a,No,n/a,Amber,No,"eCall System
+Fault
+Service Required"
+W3520,3520,2,TA*,4,No,"tbd.101, tbd.102, tbd.103, tbd.104, tbd.105, tbd.106",Neutral,No,
+W3521,3521,2,TA*,4,No,None,Neutral,No,"Selected 4x4 Mode
+Not Available
+in Current
+Terrain Mode"
+W3522,3522,2,TA*,4,No,None,Neutral,No,"Locking Differential
+Not Available
+in 2H"
+W3523,3523,2,TA*,4,No,None,Amber,soft,"Terrain Management
+System
+Fault"
+W3524,3524,2,TA*,4,No,None,Neutral,No,"Selected Terrain Mode
+Preconditions 
+Not Met"
+W3527,3527,2,SC*,n/a,No,n/a,Amber,No,"4WD
+Temporarily
+Locked"
+W3528,3528,2,SC*,n/a,No,n/a,Amber,No,"4x4
+Temporarily
+Locked"
+W3529,3529,2,SC*,n/a,No,n/a,Amber,No,"AWD
+Temporarily
+Locked"
+W3530,50,1,SC*,n/a,No,tbd.107,"Red/Neutral
+(2 Screens that cycle)",Yes,Check Driving Direction
+W3531,60,1,SC*,n/a,No,tbd.107,Red,Yes,Check Driving Direction
+W3533,3533,2,SC*,n/a,No,n/a,Amber,Yes,"Adaptive Cruise Control
+Speed Assist
+Not Available"
+W3566,3537,2,SC*,n/a,No,n/a,Amber,No,Hold for\nTraction Control\nOff\n{Scroll Bar}
+W3538,3538,2,TA*,4,No,J.15,Amber,No,"AdvanceTrac
+OFF
+in 4x4 Low"
+W3539,3539,2,SC*,n/a,No,n/a,Amber,No,"Hold for
+AdvaceTrac
+Off
+{Scroll Bar}
+"
+W3540,3540,2,SC*,n/a,No,See HMI wallpaper,Neutral,No,"Drive Mode
+{ICONS}
+{Mode}
+"
+W3541,3541,2,SC*,n/a,No,n/a,Amber,No,"Drive Mode
+Not Available"
+W3542,3542,2,SC*,n/a,No,n/a,Neutral,No,"Drive Mode 
+Selection Reduced
+due to 
+System Fault"
+W3543,3543,2,SC*,n/a,No,n/a,Neutral,No,"Drive Mode
+Preconditions 
+Not Met"
+W3550,3550,2,SC*,n/a,No,n/a,Neutral,No,"Head Up Display
+Blockage Error
+Check area and retry"
+W3551,3551,2,SC*,n/a,No,N.04,Amber,No,"Head Up Display
+System Fault
+See Manual"
+W3552,3552,2,SC*,n/a,No,N.04,Neutral,Yes,"Head Up Display
+To Position
+Use Information Center Menu"
+W3560,3555,2,SC*,n/a,No,n/a,Amber,No,"Suspension
+Fault
+Speed Limited
+to 80 MPH"
+W3561,3556,2,SC*,n/a,No,n/a,Amber,No,"Suspension
+Fault
+Speed Limited
+to 120 km/h"

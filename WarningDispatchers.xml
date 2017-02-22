@@ -1,0 +1,2508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2016 rel. 2 (x64) (http://www.altova.com) by Continental Automotive Romania SRL (Continental Automotive Romania SRL) -->
+<WarningConfiguration>
+	<WarningDispatcher Name="FORD_S0" Type="WarningDispatcher">
+		<Content>
+			<WarningStrategy Name="WSMain" Type="HMI::WSMS::WarningStrategy">
+				<Properties>
+					<Property Name="AddNewWarningPolicy">
+						<Enum>InsertPrioAndSubprio</Enum>
+					</Property>
+					<Property Name="SelectNextWarningPolicy">
+						<Enum>SelectCustom</Enum>
+					</Property>
+				</Properties>
+				<Content>
+					<WarningView WarningName="W076" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1035" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1070" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1085" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1086" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1350a" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1351b" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1351c" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1352b" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1450" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1522" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1890" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2100" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                             		<WarningView WarningName="W345" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_PerimeterAlarm</Enum>
+							</Property>
+						</Properties>
+					</WarningView>	
+					<WarningView WarningName="W603" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W605" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W605a" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W607" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W608" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W610" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W612" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3538" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3539" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_TractionControl</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W613" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W615" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W620" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W630" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W636" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W641" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W645" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W648" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W650" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W75b" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1491" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>				
+                    <WarningView WarningName="W070" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W076" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W090" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W098" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W099" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W100" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1000" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1001" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W101" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1010" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1011" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1012" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1013" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1014" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1014a" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1016" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1017" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1018" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1019" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W102" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1020" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1021" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1022" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1023" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1024" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1025" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1026" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1027" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1031" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1032" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1033" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1034" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1036" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1037" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1040" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1041" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1043" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1044" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1045" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1046" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1047" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1048" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1049" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W105" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W106" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1080" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1081" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						    <Property Name="Priority" Type="int">
+                                <Constant>2</Constant>
+                           	 </Property>	
+							<Property Name="SubPriority" Type="int">
+                               	<Constant>7</Constant>
+                            </Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1083" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1086" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W110" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W115" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W118" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W119" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W125" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W127" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1350" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1351" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1351a" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1352" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1352a" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1365" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1366" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W140" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W141" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W142" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1429" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W143" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1430" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1431" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						    <Property Name="Priority" Type="int">
+                               	 <Constant>2</Constant>
+                            </Property>	
+							<Property Name="SubPriority" Type="int">
+                               	<Constant>4</Constant>
+                           	 </Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1432" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W145" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1477" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1478" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1479" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1480" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1481" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1481a" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1484" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1485" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1487" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1491" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1492" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1522" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1531" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1532" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1533" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1534" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1591" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1653" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1654" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1710" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1711" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1712" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1796" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1797" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1798" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1799" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1843" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1850" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1851" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W1870" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1871" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1872" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1873" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1874" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W1875" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W1950" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W200" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W2000" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W201" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W2020" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2021" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2030" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2031" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2032" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2033" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2035" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2045" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W205" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2050" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+		   <WarningView WarningName="W2051" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W2110" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W2118" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2119" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2120" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2121" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2200" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2201" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2500" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2501" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W2122" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W215" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W224" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W225" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W226" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W226a" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W296" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_SeatBelt</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W297" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+                                			<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W298" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_SeatBelt</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3000" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3001" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W3006" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W306" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W3100" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3264" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3265" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3266" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3267" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3268" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3269" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3270" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3271" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3272" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3275" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3276" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3277" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3295" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3296" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+                            				</Property>
+							<Property Name="Priority" Type="int">
+                                				<Constant>2</Constant>
+                           				 </Property>	
+							<Property Name="SubPriority" Type="int">
+                                				<Constant>9</Constant>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3297" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3298" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W346" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_ParkAid</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W347" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_ParkAid</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3486" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3487" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3490" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+		            <WarningView WarningName="W3493" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+								<Enum>WSMain_ST_AdBlueMnAdd1</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W3499" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_AdBlueMnAdd2</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W350" Type="HMI::WWS::WarningView">
+							<Properties>
+								<Property Name="StrategyState">
+									<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W351" Type="HMI::WWS::WarningView">
+							<Properties>
+								<Property Name="StrategyState">
+									<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W352" Type="HMI::WWS::WarningView">
+							<Properties>
+								<Property Name="StrategyState">
+									<Enum>WSMain_ST_Common</Enum>
+								</Property>
+							</Properties>
+					</WarningView>
+					<WarningView WarningName="W3513" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W3522" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W3532" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W360" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W380" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W381" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_TPMS</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W382" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_TPMS</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W405" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W410" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W415" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W417" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W418" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W420" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W422" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W423" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W430" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W435" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W440" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>					
+					<WarningView WarningName="W443" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W444" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W445" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W446" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W450" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W470" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W475" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W477" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W502" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W505" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W510" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W515" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W518" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W540" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W541" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Dimming</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W542" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Dimming</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W590" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W591" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W600" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W601" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W606" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W609" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W610" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W611" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W615" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W626" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W630" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W636" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W641" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W645" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W648" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W650" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W653" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W654" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W656" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W657" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W660" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W661" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W662" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W663" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W665" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_CountDown665</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W667" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W668" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_CountDown668</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W669" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_FuelTank</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W700" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+                    <WarningView WarningName="W705" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_EngineWarming</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W710" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+					<WarningView WarningName="W712" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W714" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W715" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W718" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W719" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W725" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W726" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W727" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W728" Type="HMI::WWS::WarningView">
+                        <Properties>
+                            <Property Name="StrategyState">
+                                <Enum>WSMain_ST_Common</Enum>
+                            </Property>
+                        </Properties>
+                    </WarningView>
+                    <WarningView WarningName="W730" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W75a" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W769" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W770" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W771" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W772" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W781" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W814" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+                           			 </Property>
+							<Property Name="Priority" Type="int">
+                              	 <Constant>2</Constant>
+                        	 </Property>	
+							<Property Name="SubPriority" Type="int">
+                             	 <Constant>2</Constant>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W818" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W860" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W863" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W865" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W870" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W872" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W874" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W880" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W890" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W891" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W892" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W901" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W902" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W903" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W904" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W906" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W157" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W158" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W159" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W201" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W584" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W585" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W589" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3496" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3510" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3519" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3525" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3526" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3540" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3541" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3542" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3543" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3551" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3552" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3560" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3561" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3562" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3407" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3406" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W050" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3360" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W3361" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W1087" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="DASST_Overlay_ACCSTANDBY" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="DASST_Overlay_CCSTANDBY" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="DASST_Overlay_ACCOUTOFRANGE" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="DASST_Overlay_ASLDSTANDBY" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W952" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W953" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W954" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W955" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W956" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W957" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W958" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W959" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W960" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W961" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W962" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W963" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W964" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W965" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W966" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W967" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W968" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W969" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+					<WarningView WarningName="W969_2" Type="HMI::WWS::WarningView">
+						<Properties>
+							<Property Name="StrategyState">
+								<Enum>WSMain_ST_Common</Enum>
+							</Property>
+						</Properties>
+					</WarningView>
+				</Content>
+			</WarningStrategy>
+		</Content>
+	</WarningDispatcher>
+</WarningConfiguration>
